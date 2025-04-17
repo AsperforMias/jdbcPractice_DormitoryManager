@@ -1,6 +1,6 @@
 package org.example;
 import java.sql.*;
-public class dbConnection {
+public class DbConnection {
     final static private String URL = "jdbc:mysql://localhost:3306/dormitorydb";
     final static private String USER = "root";
     final static private String PASS = "411102";

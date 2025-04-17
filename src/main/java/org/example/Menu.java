@@ -1099,7 +1099,7 @@ public class Menu {
                 }
             }
         }
-        dbConnection.closeConn();
+        DbConnection.closeConn();
     }
     public static void printBoard(ArrayList<String[]> board, int... lengths){
         StringBuilder fString = new StringBuilder();

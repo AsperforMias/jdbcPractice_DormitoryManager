@@ -9,7 +9,7 @@ public class Student {
     private final long studentId;
     private String name;
     private int DormitoryId;
-    final private static Connection dbConn = dbConnection.getconn();
+    final private static Connection dbConn = DbConnection.getconn();
     private static PreparedStatement student_table_find;
     private static PreparedStatement student_table_insert;
     private static PreparedStatement student_table_update;

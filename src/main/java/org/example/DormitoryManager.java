@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class DormitoryManager {
-    final private static Connection dbConn = dbConnection.getconn();
+    final private static Connection dbConn = DbConnection.getconn();
     private static final Map<String, Integer> IdAreaDic = new HashMap<>();
     private static final Map<String, Integer> IdBuildingDic = new HashMap<>();
     private static PreparedStatement update_area;
