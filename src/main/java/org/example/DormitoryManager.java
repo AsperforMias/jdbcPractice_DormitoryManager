@@ -5,8 +5,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class DormitoryManager {
+    private static final Logger logger = LoggerFactory.getLogger(DormitoryManager.class);
     final private static Connection dbConn = DbConnection.getconn();
     private static final Map<String, Integer> IdAreaDic = new HashMap<>();
     private static final Map<String, Integer> IdBuildingDic = new HashMap<>();
